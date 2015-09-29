@@ -138,7 +138,6 @@ class Editor
     column   = Gtk::TreeViewColumn.new(_("Category"), @renderer,  :text => INDEX)
     @treeview.sensitive = false
     @treeview.append_column(column)
-    list = Array.new
     list = ["NAME", "SYNOPSIS","AVAILABILITY","DESCRIPTION","OPTIONS",
     "EXAMPLES","NOTES", "MESSAGES AND EXIT CALLS","AUTHOR","HISTORY",
     "RESOURCES","FILES","BUGS","CAVEATS","SEE ALSO"]
